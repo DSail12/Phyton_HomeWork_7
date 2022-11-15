@@ -1,4 +1,4 @@
-def import_data(data, sep-None):
+def import_data(data, sep=None):
     with open('phone.csv', 'a+') as file:
         if sep == None:
             for i in data:
